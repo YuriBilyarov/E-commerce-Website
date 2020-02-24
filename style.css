@@ -1,0 +1,921 @@
+/* Header and Footer */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/ecomBackground.jpg");
+    position: relative;
+    min-height: 760px;
+    padding-bottom: 60px;
+}
+
+header {
+    background-color: white;
+    padding: 20px 40px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header img {
+    width: 120px;
+    height: 30px;
+}
+
+nav {
+    float: right;
+    margin: 5px 10px;  
+}
+
+nav a { 
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    
+    margin: 10px 10px;
+    border-radius: 5px;   
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+footer {
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Home Page */
+
+.search {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 700px;
+    height: 90px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search input {
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.search select {
+    width: 120px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.search button {
+    margin: 30px 30px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+.search button:hover {
+    background-color:blue;
+}
+
+.items { 
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 1100px;
+    height: 1100px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.items div { 
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    margin: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.items img {
+    margin-top: 20px;
+    width: 150px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.items button {
+    margin: 0px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.items select {
+    width: 35px;
+    height: 20px;
+    font-size: 13px;
+    
+}
+
+.items p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Sign In Page */    
+
+.signIn {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 330px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signIn img {
+    padding-top:30px;
+    width: 180px;
+    height: 50px;
+}
+.signIn input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.signIn button {
+    margin: 30px 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.signIn button:hover {
+    background-color: blue;
+}
+
+.register {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register button {
+    margin: 15px auto;
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+
+.register button:hover {
+    background-color: blue;
+    
+}
+
+/* Sign Up/Register Page */
+
+.signUp {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 820px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.signUp input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.signUp img {
+    padding-top:30px;
+    width: 180px;
+    height: 50px;
+}
+
+.signUp button, .btn {
+    margin: 30px 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.signUp button:hover, .btn:hover {
+    background-color: blue;
+}
+
+/* Cart Page */
+
+.cart {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 1200px;
+    height: 700px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart h1 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.cart div { 
+    float: left;    
+    margin: 30px 30px;
+}
+
+.cartItems {    
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 750px;
+    height: 500px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.cartItems div {
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cartItems select {
+    width: 35px;
+    height: 20px;
+    font-size: 13px;
+    
+}
+
+.cartItems img {
+    margin-top: 20px;
+    width: 80px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.cartItems p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cartItems button {
+    margin: 10px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+
+.list {
+    position: relative;
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.list button {
+    position: absolute;
+    right: 0;
+    bottom:   0;
+    margin: 20px 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.list h2 {
+    position: absolute;
+    right: 0;
+    bottom:   0;
+    margin: 60px 100px;
+}
+
+.list p{
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Account Menu Page */
+
+.accountMenu {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.accountMenu input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.accountMenu img {
+    margin-top:30px;
+    width: 180px;
+    height: 50px;
+}
+
+.accountMenu button, .btn {
+    margin: 30px 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.accountMenu button:hover, .btn:hover {
+    background-color: blue;
+}
+
+/* Edit Account Page */
+
+.editAccount {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 550px;
+    height: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.editAccount input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.editAccount img {
+    margin-top:30px;
+    width: 180px;
+    height: 50px;
+}
+
+.editAccount button, .btn {
+    margin: 30px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.editAccount button:hover, .btn:hover {
+    background-color: blue;
+}
+
+/* View Past Orders Page */
+
+.pastOrders {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 600px;
+    height: 740px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.pastOrders img {
+
+    margin-top:30px;
+    width: 180px;
+    height: 50px;
+}
+
+.pastOrders button, .btn {
+    margin: 30px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.pastOrders button:hover, .btn:hover {
+    background-color: blue;
+}
+
+.orderList {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 550px;
+    height: 420px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.orderList div {
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 160px;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.orderList img {
+    float: left;
+    border-radius: 15px;
+    width: 80px;
+    height: 120px;
+    margin: 20px;   
+}
+
+.orderList h3 {
+    padding-top: 10px;
+}
+
+.orderList p {
+    margin-right: 20px;
+}
+
+.orderList2 {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 550px;
+    height: 420px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.orderList2 div {
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 160px;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.orderList2 h3 {
+    margin-bottom: -15px;
+}
+
+.orderList2 h2 {
+    margin-bottom: -25px;
+}
+
+/* ----------------------- CMS ----------------------- */
+
+/* CMS Home */
+
+.cmsSearch {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 500px;
+    height: 90px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cmsSearch input {
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.cmsSearch button {
+    margin: 30px 30px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.cmsSearch button:hover {
+    background-color:blue;
+}
+
+.cmsItems { 
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 1100px;
+    height: 1300px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.cmsItems div { 
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 530px;
+    margin: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cmsItems img {
+    margin-top: 20px;
+    width: 150px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.cmsItems button {
+    margin: 0px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.cmsItems p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* CMS Add Item */
+
+.addItem { 
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 620px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.addItem img {
+    padding-top:30px;
+    width: 180px;
+    height: 50px;
+}
+
+.addItem input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.addItem button {
+    margin: 0px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+/* CMS Edit Item */
+
+.editItem {
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 700px;
+    height: 800px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.editItem input {
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.editItem img {
+    padding-top:30px;
+    width: 180px;
+    height: 50px;
+}
+
+.editItem button{
+    margin: 30px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.editItem button:hover {
+    background-color: blue;
+}
+
+.cmsSaveBtn{
+    margin: 30px 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 130px;
+}
+
+.itemVisual { 
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    height: 500px;
+    margin: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.itemVisual img {
+    margin-top: -10px;
+    width: 150px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.itemVisual button {
+    margin: 0px 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+.itemVisual p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.userList2 { 
+    position: absolute;
+    right: 80px;
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 850px;
+    height: 500px;
+    margin: 150px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.userList2 h3 {
+    padding-left: 10px;
+    padding-top: -10px;
+    text-align: left;
+}
+
+.userList2 h2 {
+    padding-left: 10px;
+    padding-top: -5px;
+    text-align: center;
+}
+
+.userList2 p {
+    margin-right: 20px;
+}
+
+.userList2 button.b1 {
+    margin: 30px 30px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    right: -350px;
+    bottom: 65px;
+    
+}
+
+.userList2 button.b2 {
+    margin: 30px 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: darkred;
+    border: none;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    right: -330px;
+    bottom: 70px;
+    
+}
+
+.userList2 button.b1:hover {
+    background-color: blue;
+}
+
+.userList2 button.b2:hover {
+    background-color: red;
+}
+
+div.div1 {
+    float: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 150px;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+div.div2 {
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 120px;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+div.div3 {
+    background-color: white;
+    border-radius: 15px;
+    width: 750px;
+    height: 30px;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.userList { 
+    position: absolute;
+    left: 130px;
+    text-align: center;
+    background-color:white;
+    border-radius: 15px;
+    width: 350px;
+    height: 500px;
+    margin: 150px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+
+.search2 {
+    text-align: center;
+    float: left;
+    background-color:white;
+    border-radius: 15px;
+    width: 700px;
+    height: 90px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search2 input {
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.search2 select {
+    width: 120px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.search2 button {
+    margin: 30px 30px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkblue;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+.search2 button:hover {
+    background-color:blue;
+}
+
+.userList button.b1 {
+    float: left;
+    border-radius: 15px;
+    background-color: rgb(238, 238, 238);
+    width: 320px;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.userList button.b2 {
+    float: left;
+    border-radius: 15px;
+    background-color: lightblue;
+    width: 320px;
+    height: 50px;
+    margin: 10px 10px;
+}
+
+.userList button:hover {
+    background-color: lightblue;
+}
+
+.userList h3 {
+    padding-left: 10px;
+    padding-bottom: 100px;
+    text-align: left;
+}
